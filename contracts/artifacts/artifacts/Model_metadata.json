@@ -1,0 +1,195 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_Name",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "_Attendance",
+						"type": "bool"
+					},
+					{
+						"internalType": "string[5]",
+						"name": "_Interest",
+						"type": "string[5]"
+					}
+				],
+				"name": "addSelfStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "addStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"name": "getStudent",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "Name",
+								"type": "string"
+							},
+							{
+								"internalType": "bool",
+								"name": "Attendance",
+								"type": "bool"
+							},
+							{
+								"internalType": "string[5]",
+								"name": "Interests",
+								"type": "string[5]"
+							}
+						],
+						"internalType": "struct Model.StudentStruct",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_studentAddr",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_Name",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "_Attendance",
+						"type": "bool"
+					},
+					{
+						"internalType": "string[5]",
+						"name": "_Interest",
+						"type": "string[5]"
+					}
+				],
+				"name": "ownerAddStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "student",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "Name",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "Attendance",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "studentMap",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "Name",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "Attendance",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/artifacts/NewContract.sol": "Model"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/artifacts/NewContract.sol": {
+			"keccak256": "0xa4bfe261c48ce4eb8072d8dfcfa83b25482d0562ceb56f7cc4a23406b6ba7b21",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5b6ea191746c622f460c1dc4bb5a4b5a473e2aa4139a6b8216d51006663fadbb",
+				"dweb:/ipfs/QmSKnt2mHaZqhWfXJfksCp44XE1jj4vWmQxBf83Nz46pcC"
+			]
+		}
+	},
+	"version": 1
+}
