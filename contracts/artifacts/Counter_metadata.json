@@ -136,7 +136,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/counter.sol": "Counter"
+			"contracts/4_counter.sol": "Counter"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -150,12 +150,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/counter.sol": {
-			"keccak256": "0xb8875310e7ebebef04b34630f29ad3fe5a5012746ae6c454298197613cf5d09c",
+		"contracts/4_counter.sol": {
+			"keccak256": "0x334ff1a0de7c8e1e3ad37792eab03aecaa17e3b82ea328c3c151c4f343b9aa60",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://35437c9c77999ef43c26a9bdeef8e95aa7211fedcc6454480904a8ac5c7771a7",
-				"dweb:/ipfs/Qmb7KkwB2YUaYzKEqGiziiUsTd8R9g413E1aHRwrvjcrjP"
+				"bzz-raw://617e1a075221e480a0a82da16c31e4f2f600cc1e492b39825220c3e4201b8ff3",
+				"dweb:/ipfs/QmPCgChJxd1V4T5Zx9YGhTrXnG6syHPNmGjTLH3i2FGWPS"
 			]
 		}
 	},
